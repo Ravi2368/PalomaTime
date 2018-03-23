@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/file9"
+    android:layout_height="match_parent"
+    tools:context="com.arn.gab.RequestsLayout">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/text_white"
+        android:text="Guru Prakash Adimulam"
+        android:textSize="24sp"
+        android:id="@+id/request_name"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_marginTop="45sp"/>
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:layout_width="match_parent"
+        android:layout_height="160sp"
+        android:id="@+id/request_image"
+        android:layout_marginTop="55sp"
+        android:src="@drawable/default_image"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <Button
+            android:layout_width="140sp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="37dp"
+            android:layout_marginStart="37dp"
+            android:layout_marginTop="35dp"
+            android:background="@drawable/accept_button"
+            android:text="Accept"
+            android:textColor="@color/text_white"
+            android:textSize="18sp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:id="@+id/request_accept" />
+
+        <Button
+            android:layout_width="140sp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="29dp"
+            android:layout_marginStart="29dp"
+            android:background="@drawable/reject_button"
+            android:text="Reject"
+            android:id="@+id/request_reject"
+            android:textColor="@color/text_white"
+            android:textSize="18sp"
+            android:layout_alignBaseline="@+id/request_accept"
+            android:layout_alignBottom="@+id/request_accept"
+            android:layout_toRightOf="@+id/request_accept"
+            android:layout_toEndOf="@+id/request_accept" />
+
+    </RelativeLayout>
+
+</LinearLayout>

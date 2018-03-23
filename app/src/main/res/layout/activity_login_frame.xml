@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/file5"
+    android:orientation="vertical"
+    tools:context="com.arn.gab.LoginFrame">
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="wrap_content"
+        android:layout_marginTop="20sp"
+        android:layout_height="150sp"
+        android:layout_gravity="center"
+        app:srcCompat="@drawable/paloma_logo" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_marginLeft="40sp"
+        android:layout_marginTop="25sp"
+        android:layout_marginRight="40sp"
+        android:background="@drawable/button_pink"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:layout_marginTop="6sp"
+            android:layout_width="40sp"
+            android:layout_marginLeft="5sp"
+            android:layout_height="35sp"
+            android:src="@drawable/username_icon"/>
+
+        <EditText
+            android:id="@+id/userNameLogin"
+            android:layout_width="match_parent"
+            android:layout_height="50sp"
+            android:padding="10sp"
+            android:layout_marginLeft="10sp"
+            android:background="?android:attr/selectableItemBackground"
+            android:textSize="20sp"
+            style="@style/EditText.Login"
+            android:inputType="textEmailAddress"
+            android:textColor="@color/text_white"
+            android:textColorHint="@color/text_white"
+            android:hint="User Name" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginLeft="40sp"
+        android:layout_marginRight="40sp"
+        android:layout_marginTop="20sp"
+        android:background="@drawable/button_pink"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:layout_marginTop="6sp"
+            android:layout_width="40sp"
+            android:layout_marginLeft="5sp"
+            android:layout_height="35sp"
+            android:src="@drawable/key_icon"/>
+
+        <EditText
+            android:id="@+id/passwordLogin"
+            android:layout_width="match_parent"
+            android:layout_height="55sp"
+            android:layout_marginLeft="10sp"
+            android:background="?android:attr/selectableItemBackground"
+            android:padding="10sp"
+            style="@style/EditText.Login"
+            android:inputType="textPassword"
+            android:textSize="20sp"
+            android:textColor="@color/text_white"
+            android:textColorHint="@color/text_white"
+            android:hint="Password" />
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#dd5143"
+        android:text="Forgot Password?"
+        android:layout_gravity="end"
+        android:layout_marginRight="40sp"
+        android:layout_marginTop="15sp"/>
+
+    <Button
+        android:id="@+id/login"
+        android:layout_marginTop="20sp"
+        android:layout_marginLeft="70sp"
+        android:layout_marginRight="70sp"
+        android:background="@drawable/button_white"
+        android:textColor="#ffffff"
+        android:textSize="16sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Login" />
+
+    <TextView
+        android:id="@+id/registering"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="70sp"
+        android:layout_marginRight="70sp"
+        android:layout_marginTop="30sp"
+        android:onClick="goToRegistering"
+        android:textAlignment="center"
+        android:text="New Here? Create an Account"
+        android:textColor="@color/text_white"
+        android:textSize="16sp" />
+
+</LinearLayout>

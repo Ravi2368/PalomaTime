@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg1"
+    android:orientation="vertical"
+    tools:context="com.arn.gab.SecuritySetup">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/text_white"
+        android:textSize="18sp"
+        android:layout_marginTop="50sp"
+        android:layout_marginLeft="28sp"
+        android:layout_marginRight="28sp"
+        android:text="Enter new password. This password will be asked when you open Paloma app"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="45sp"
+        android:textColor="@color/text_white"
+        android:hint="Password"
+        android:id="@+id/first_password"
+        android:textColorHint="@color/text_white"
+        android:textSize="19sp"
+        android:padding="7dp"
+        android:inputType="number"
+        android:layout_marginTop="8sp"
+        android:layout_marginLeft="25sp"
+        android:layout_marginRight="25sp"
+        android:background="@drawable/button_pink"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/text_white"
+        android:textSize="18sp"
+        android:layout_marginTop="20sp"
+        android:layout_marginLeft="28sp"
+        android:layout_marginRight="28sp"
+        android:text="Confirm your password"/>
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="45sp"
+        android:id="@+id/confirm_password"
+        android:textColor="@color/text_white"
+        android:hint="Confirm Password"
+        android:textColorHint="@color/text_white"
+        android:textSize="19sp"
+        android:padding="7dp"
+        android:inputType="number"
+        android:layout_marginTop="8sp"
+        android:layout_marginLeft="25sp"
+        android:layout_marginRight="25sp"
+        android:background="@drawable/button_pink"/>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/text_white"
+        android:textSize="18sp"
+        android:layout_marginTop="20sp"
+        android:layout_marginLeft="28sp"
+        android:layout_marginRight="28sp"
+        android:text="Enter Some Hint
+This will be asked when you forgot your password"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="45sp"
+        android:textColor="@color/text_white"
+        android:hint="Some hint"
+        android:textColorHint="@color/text_white"
+        android:textSize="19sp"
+        android:id="@+id/some_hint"
+        android:padding="7dp"
+        android:inputType="textEmailAddress"
+        android:layout_marginTop="8sp"
+        android:layout_marginLeft="25sp"
+        android:layout_marginRight="25sp"
+        android:background="@drawable/button_pink"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20sp"
+        android:layout_marginLeft="50sp"
+        android:layout_marginRight="50sp"
+        android:text="Save"
+        android:id="@+id/security_save"
+        android:textSize="20sp"
+        android:background="@drawable/button_white"/>
+
+</LinearLayout>

@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    tools:context="com.arn.gab.SettingsActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Guru Prakash Adimulam"
+        android:textColor="@color/text_white"
+        android:layout_marginTop="54dp"
+        android:textSize="17sp"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/settings_name" />
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:layout_width="130sp"
+        android:layout_height="130sp"
+        android:src="@drawable/default_image"
+        android:layout_below="@+id/settings_name"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="26dp"
+        android:id="@+id/settings_image" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Hello World"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textColor="@color/text_white"
+        android:id="@+id/settings_status"
+        android:layout_below="@+id/settings_image"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="67dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/settings_status"
+        android:layout_alignParentLeft="true"
+        android:orientation="vertical"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="30dp">
+
+        <TextView
+            android:id="@+id/setting_email"
+            android:layout_width="match_parent"
+            android:layout_height="35sp"
+            android:background="#F60B3A"
+            android:textColor="@color/text_white"
+            android:gravity="center"
+            android:text="guruprakash123@gmail.com" />
+
+        <TextView
+            android:id="@+id/setting_mobile"
+            android:layout_width="match_parent"
+            android:layout_height="35sp"
+            android:background="#A4233E"
+            android:gravity="center"
+            android:textColor="@color/text_white"
+            android:text="9492445310" />
+
+        <TextView
+            android:id="@+id/setting_dob"
+            android:layout_width="match_parent"
+            android:layout_height="35sp"
+            android:background="#521D28"
+            android:gravity="center"
+            android:text="DOB: 12/9/1996"
+            android:textColor="@color/text_white" />
+
+    </LinearLayout>
+
+    <ImageButton
+        android:id="@+id/edit_details"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="?android:attr/selectableItemBackground"
+        app:srcCompat="@android:drawable/ic_menu_edit"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginRight="11dp"
+        android:layout_marginEnd="11dp"
+        android:layout_marginTop="11dp" />
+
+    <ImageButton
+        android:id="@+id/change_image"
+        android:layout_width="wrap_content"
+        android:layout_gravity="center"
+        android:layout_height="wrap_content"
+        android:background="@drawable/message_text_background"
+        app:srcCompat="@android:drawable/ic_menu_camera"
+        android:layout_marginTop="14dp"
+        android:layout_below="@+id/settings_image"
+        android:layout_centerHorizontal="true" />
+
+</RelativeLayout>

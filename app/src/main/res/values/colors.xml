@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#090929</color>
+    <color name="colorPrimaryDark">#05051E</color>
+    <color name="colorAccent">#E91038</color>
+    <color name="skyblue">#1ADDCE</color>
+
+    <color name="text_skyblue">#0ABDFF</color>
+    <color name="text_pink">#FF0A66</color>
+    <color name="silver">#DAF7A6</color>
+    <color name="login">#212F3C</color>
+    <color name="messages_top">#2C3E50</color>
+    <color name="text_black">#000000</color>
+    <color name="text_white">#ffffff</color>
+    <color name="gold">#FFDD33</color>
+    <color name="myBlue">#00A0DC</color>
+    <color name="yellow">#FFF380</color>
+    <color name="test1">#E91038</color>
+    <color name="previous_primary">#17202A</color>
+
+    <color name="chattingback">#EDE6E8</color>
+
+</resources>

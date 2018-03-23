@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#332C2E"
+    tools:context="com.arn.gab.Profile"
+    android:weightSum="1">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Guru Prakash Adimulam"
+        android:textSize="24sp"
+        android:id="@+id/profile_displayName"
+        android:gravity="center"
+        android:layout_marginLeft="10sp"
+        android:layout_marginTop="70sp"
+        android:textColor="@color/text_white"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Stay Hungry"
+        android:textSize="20sp"
+        android:id="@+id/profile_status"
+        android:gravity="center"
+        android:layout_marginLeft="10sp"
+        android:layout_marginTop="10sp"
+        android:textColor="@color/text_white" />
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:layout_width="match_parent"
+        android:layout_height="140sp"
+        android:id="@+id/profile_image"
+        android:layout_marginTop="50sp"
+        android:src="@drawable/default_image" />
+
+    <Button
+        android:id="@+id/profile_send_req_btn"
+        android:layout_width="300sp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="40sp"
+        android:background="@drawable/button_pink"
+        android:text="Be Friend"
+        android:textAllCaps="false"
+        android:textColor="@color/text_white"
+        android:textSize="20sp" />
+
+</LinearLayout>

@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/file5"
+    android:orientation="vertical"
+    tools:context="com.arn.gab.RegistrationFrame">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="100sp"
+                android:layout_marginTop="20sp"
+                android:src="@drawable/paloma_logo"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Registration"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:textColor="@color/text_white"
+                android:textSize="25sp"/>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="50sp"
+                android:hint="User Name"
+                android:textColor="@color/text_white"
+                android:id="@+id/userNameReg"
+                android:layout_marginTop="20sp"
+                android:paddingLeft="10sp"
+                android:inputType="text"
+                android:layout_marginLeft="25sp"
+                android:layout_marginRight="25sp"
+                android:textColorHint="@color/text_white"
+                android:background="@drawable/button_pink"/>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="50sp"
+                android:hint="Email"
+                android:inputType="textEmailAddress"
+                android:textColor="@color/text_white"
+                android:id="@+id/emailReg"
+                android:layout_marginTop="20sp"
+                android:paddingLeft="10sp"
+                android:layout_marginLeft="25sp"
+                android:layout_marginRight="25sp"
+                android:textColorHint="@color/text_white"
+                android:background="@drawable/button_pink"/>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="50sp"
+                android:hint="Password"
+                android:inputType="textPassword"
+                android:textColor="@color/text_white"
+                android:id="@+id/passwordReg"
+                android:layout_marginTop="20sp"
+                android:paddingLeft="10sp"
+                android:layout_marginLeft="25sp"
+                android:layout_marginRight="25sp"
+                android:textColorHint="@color/text_white"
+                android:background="@drawable/button_pink"/>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="50sp"
+                android:hint="Confirm Password"
+                android:paddingLeft="10sp"
+                android:inputType="textPassword"
+                android:id="@+id/confrmReg"
+                android:textColor="@color/text_white"
+                android:layout_marginTop="20sp"
+                android:layout_marginLeft="25sp"
+                android:layout_marginRight="25sp"
+                android:textColorHint="@color/text_white"
+                android:background="@drawable/button_pink"/>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="50sp"
+                android:layout_marginTop="20sp"
+                android:hint="Mobile Number"
+                android:inputType="number"
+                android:id="@+id/numberReg"
+                android:textColor="@color/text_white"
+                android:paddingLeft="10sp"
+                android:layout_marginLeft="25sp"
+                android:layout_marginRight="25sp"
+                android:textColorHint="@color/text_white"
+                android:background="@drawable/button_pink"/>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="50sp"
+                android:textColor="@color/text_white"
+                android:layout_marginTop="20sp"
+                android:hint="Date Of Birth(DD/MM/YYYY)"
+                android:paddingLeft="10sp"
+                android:inputType="date"
+                android:id="@+id/dobReg"
+                android:layout_marginLeft="25sp"
+                android:layout_marginRight="25sp"
+                android:textColorHint="@color/text_white"
+                android:background="@drawable/button_pink"/>
+
+            <Button
+                android:id="@+id/register"
+                android:layout_marginTop="25sp"
+                android:layout_marginLeft="70sp"
+                android:layout_marginRight="70sp"
+                android:layout_marginBottom="30sp"
+                android:background="@drawable/button_white"
+                android:textColor="@color/text_white"
+                android:textSize="16sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Register" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

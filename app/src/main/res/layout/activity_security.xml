@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/sequrity_background"
+    tools:context="com.arn.gab.Security">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50sp"
+        android:text=""
+        android:background="@drawable/button_pink"
+        android:textSize="28sp"
+        android:gravity="center"
+        android:inputType="textPassword"
+        android:textColor="@color/text_white"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="50sp"
+        android:layout_marginRight="50sp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="84dp"
+        android:id="@+id/written_password" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginTop="44dp"
+        android:id="@+id/linearLayout7"
+        android:layout_below="@+id/written_password"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+        <Button
+            android:layout_width="110sp"
+            android:layout_height="80sp"
+            android:text="1"
+            android:id="@+id/click_one"
+            android:textStyle="bold"
+            android:textColor="@color/text_white"
+            android:background="?android:attr/selectableItemBackground"
+            android:textSize="20sp" />
+
+
+        <Button
+            android:layout_width="110sp"
+            android:layout_height="80sp"
+            android:text="2"
+            android:id="@+id/click_two"
+            android:textStyle="bold"
+            android:textColor="@color/text_white"
+            android:background="?android:attr/selectableItemBackground"
+            android:textSize="20sp" />
+
+        <Button
+            android:layout_width="110sp"
+            android:layout_height="80sp"
+            android:text="3"
+            android:id="@+id/click_three"
+            android:textStyle="bold"
+            android:textColor="@color/text_white"
+            android:background="?android:attr/selectableItemBackground"
+            android:textSize="20sp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_below="@+id/linearLayout7"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:id="@+id/linearLayout8">
+
+        <Button
+            android:layout_width="110sp"
+            android:layout_height="80sp"
+            android:text="4"
+            android:id="@+id/click_four"
+            android:textStyle="bold"
+            android:textColor="@color/text_white"
+            android:background="?android:attr/selectableItemBackground"
+            android:textSize="20sp" />
+
+        <Button
+            android:layout_width="110sp"
+            android:layout_height="80sp"
+            android:text="5"
+            android:id="@+id/click_five"
+            android:textStyle="bold"
+            android:textColor="@color/text_white"
+            android:background="?android:attr/selectableItemBackground"
+            android:textSize="20sp" />
+
+        <Button
+            android:layout_width="110sp"
+            android:layout_height="80sp"
+            android:text="6"
+            android:id="@+id/click_six"
+            android:textStyle="bold"
+            android:textColor="@color/text_white"
+            android:background="?android:attr/selectableItemBackground"
+            android:textSize="20sp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_below="@+id/linearLayout8"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:id="@+id/linearLayout9">
+
+        <Button
+            android:layout_width="110sp"
+            android:layout_height="80sp"
+            android:text="7"
+            android:id="@+id/click_seven"
+            android:textStyle="bold"
+            android:textColor="@color/text_white"
+            android:background="?android:attr/selectableItemBackground"
+            android:textSize="20sp" />
+
+
+        <Button
+            android:layout_width="110sp"
+            android:layout_height="80sp"
+            android:text="8"
+            android:id="@+id/click_eight"
+            android:textStyle="bold"
+            android:textColor="@color/text_white"
+            android:background="?android:attr/selectableItemBackground"
+            android:textSize="20sp" />
+
+        <Button
+            android:layout_width="110sp"
+            android:layout_height="80sp"
+            android:text="9"
+            android:id="@+id/click_nine"
+            android:textStyle="bold"
+            android:textColor="@color/text_white"
+            android:background="?android:attr/selectableItemBackground"
+            android:textSize="20sp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_below="@+id/linearLayout9"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:id="@+id/linearLayout10">
+
+        <Button
+            android:layout_width="110sp"
+            android:layout_height="80sp"
+            android:text="x"
+            android:id="@+id/click_back"
+            android:textStyle="bold"
+            android:textColor="@color/text_white"
+            android:background="?android:attr/selectableItemBackground"
+            android:textSize="20sp" />
+
+
+        <Button
+            android:layout_width="110sp"
+            android:layout_height="80sp"
+            android:text="0"
+            android:id="@+id/click_zero"
+            android:textStyle="bold"
+            android:textColor="@color/text_white"
+            android:background="?android:attr/selectableItemBackground"
+            android:textSize="20sp" />
+
+        <Button
+            android:layout_width="110sp"
+            android:layout_height="80sp"
+            android:text="E"
+            android:id="@+id/click_enter"
+            android:textStyle="bold"
+            android:textColor="@color/text_white"
+            android:background="?android:attr/selectableItemBackground"
+            android:textSize="20sp" />
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Forgot Password? Click Me."
+        android:textSize="20sp"
+        android:gravity="center"
+        android:id="@+id/forgot_password"
+        android:textColor="@color/text_white"
+        android:layout_below="@+id/linearLayout10"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="14dp" />
+
+</RelativeLayout>
